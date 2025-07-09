@@ -111,6 +111,11 @@ private static final long serialVersionUID=1L;
      */
     private BigDecimal orderAmount;
 
+    /**
+     * 推荐佣金是否已处理 (0-未处理, 1-已处理)
+     */
+    private Boolean commissionProcessed;
+
     //业务字段
     /**
      *  结算类型  1 指定天数   2  每日  3 产品到期结算
